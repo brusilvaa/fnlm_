@@ -1,0 +1,111 @@
+/* Reset de Estilos */
+body, h1, h2, h3, p, ul, li, marquee {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Globais */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F1F2EE;
+}
+
+/* Cabeçalho */
+#Topo {
+    text-align: left;
+}
+.faixa ul li{
+    display: inline-block;
+    padding-right: 4px;
+}
+
+
+marquee{
+    background-color: #272525;
+    color: #F1F2EE;
+   
+}
+
+#Topo hr.linha {
+    size: 4px;
+    width: 100%;
+    background-color: #272525;
+}
+
+
+
+#Topo img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Corpo do Site */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 20px;
+}
+
+.titulo {
+    text-align: left;
+    display: flex;
+ 
+  
+    
+}
+
+/* Missão, Visão, Valores */
+.titulo2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Localização */
+#Localizacao {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#dov {
+    display: flex;
+    justify-content: center; /* Para centralizar horizontalmente */
+    align-items: center; /* Para centralizar verticalmente */
+    height: 300px; /* Ajuste a altura conforme necessário */
+}
+
+#dov img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Rodapé */
+#Contato {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#dov2 {
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+#dov2 img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Links de "Volta ao Topo" */
+.centro a {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+}
